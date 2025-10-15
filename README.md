@@ -68,7 +68,7 @@ I have successfully delivered **10+ projects**, including full custom builds and
 <p align="center">
   📧 <a href="mailto:hdeveloper429@gmail.com">hdeveloper429@gmail.com</a>  
   🔗 <a href="https://github.com/mahediali" target="_blank">GitHub</a> | 
-  💼 <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+  💼 <a href="https://www.linkedin.com/in/mahedihasan-nandoliya-13040912a" target="_blank">LinkedIn</a>
 </p>
 
 ---
