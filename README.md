@@ -1,66 +1,163 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!DOCTYPE html>
+<html lang="en">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahedihasan Nandoliya - Laravel Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f9fafc;
+        }
 
-## Hasan Laravel
+        .hero {
+            background: #1B263B;
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+        }
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+        .hero h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+        .section-title {
+            font-weight: 700;
+            margin: 50px 0 30px;
+            text-align: center;
+        }
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+            transition: transform 0.2s;
+        }
 
-## Learning Laravel
+        .project-card:hover {
+            transform: scale(1.02);
+        }
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+        .project-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+        .skills span {
+            background: #1B263B;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin: 3px;
+            display: inline-block;
+        }
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+        .contact a {
+            color: #1B263B;
+            text-decoration: none;
+        }
 
-## Laravel Sponsors
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<body>
 
-### Premium Partners
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Mahedihasan Nandoliya</h1>
+        <p>Laravel Developer | Remote | Backend Specialist</p>
+    </section>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+    <!-- About Me -->
+    <section class="container my-5">
+        <h2 class="section-title">About Me</h2>
+        <p>I am a Laravel developer with 3 years of experience building and maintaining web applications. I have
+            successfully delivered 10+ projects, including full custom builds and extending pre-built templates. I
+            specialize in backend development, API integration, database design, and deployment. I am experienced in
+            working independently in remote teams and delivering production-ready applications.</p>
+    </section>
 
-## Contributing
+    <!-- Skills -->
+    <section class="container my-5">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills text-center">
+            <span>Laravel</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>REST API</span>
+            <span>Vue.js / Inertia.js</span>
+            <span>Git / GitHub</span>
+            <span>Deployment</span>
+            <span>Security Best Practices</span>
+        </div>
+    </section>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    <!-- Projects -->
+    <section class="container my-5">
+        <h2 class="section-title">Projects</h2>
 
-## Code of Conduct
+        <div class="row">
+            <!-- From Scratch Projects -->
+            <h3>Built From Scratch</h3>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <img src="project1-screenshot.jpg" alt="Project 1" class="project-img">
+                    <h5 class="mt-3">Hotel Management System</h5>
+                    <p>Built complete backend for hotel booking, rooms, payments. Tech: Laravel, MySQL, Vue.js. Solo
+                        developer.</p>
+                    <a href="https://github.com/username/project1" target="_blank">View on GitHub</a>
+                </div>
+            </div>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+            <div class="col-md-4">
+                <div class="project-card">
+                    <img src="project2-screenshot.jpg" alt="Project 2" class="project-img">
+                    <h5>E-Commerce Platform</h5>
+                    <p>Complete Laravel e-commerce with products, cart, checkout, and admin panel. Built from scratch.
+                    </p>
+                    <a href="https://github.com/username/project2" target="_blank">View on GitHub</a>
+                </div>
+            </div>
 
-## Security Vulnerabilities
+            <!-- Add other 3 projects similarly -->
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+            <!-- Customized Purchased Projects -->
+            <h3 class="mt-5">Customized / Extended Templates</h3>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <img src="project6-screenshot.jpg" alt="Project 6" class="project-img">
+                    <h5>E-Learning Platform (Purchased)</h5>
+                    <p>Extended Laravel template to add custom backend modules, APIs, and deployment. Solo work.</p>
+                    <a href="https://github.com/username/project6" target="_blank">View on GitHub</a>
+                </div>
+            </div>
 
-## License
+            <!-- Add other 4 purchased/customized projects similarly -->
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container my-5">
+        <h2 class="section-title">Contact</h2>
+        <p class="text-center contact">
+            Email: <a href="mailto:hdeveloper429@gmail.com">hdeveloper429@gmail.com</a> |
+            GitHub: <a href="https://github.com/mahediali" target="_blank">github.com/mahediali</a> |
+            LinkedIn: <a href="https://www.linkedin.com/in/username" target="_blank">linkedin.com/in/username</a>
+        </p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
